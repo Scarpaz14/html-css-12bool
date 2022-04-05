@@ -1,20 +1,18 @@
 
-.row > *{
+.box, .box-nested{
 background-color: #0000ff;
 color:white;
-border: 2px solid white;
-min-height: 60px;
+border: 1px solid white;
+min-height: 50px;
 text-align: center;
-line-height: 60px;
-padding: 15px;
+line-height: 50px;
+padding: 5px;
+
 }
 
-.nested > *{
+.box-nested{
     background-color: green;
-    color:white;
-    border: 2px solid #0000ff;;
-    min-height: 40px;
-    text-align: center;
-    line-height: 40px;  
+    border: 1px solid #0000ff                                           ;
+    text-align: center;   
 }
 
